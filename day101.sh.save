@@ -1,0 +1,38 @@
+function funcStart
+{
+  echo "function 1"
+  for i in 1 2 3
+  do
+     echo "numbers $i"
+  done
+}
+
+function funcWrite
+{
+  #$a = $1
+  #echo enter value ? $2 >> $a
+  #
+echo get value from input $a
+}
+
+function funcReadFiles
+{
+  #l1 = ${PWD}
+  echo "current path is "
+  ls
+}
+
+function funcMapping
+{
+  alias www='firefox'
+  
+  # echo "value is :" ${ebi}
+}
+
+
+
+#funcStart
+#funcReadFiles
+#funcMapping
+funcWrite 'home/ebrahim/linux_scripts/sample',21 
+
